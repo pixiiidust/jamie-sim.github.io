@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamie Sim | Product Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700;800&family=VT323&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-color: #FFFFFF;
+        --text-color: #000000;
+        --border-color: #000000;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #f0f0f0; /* Light gray background for the "desk" */
+        font-family: 'JetBrains Mono', monospace;
+        color: var(--text-color);
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 0;
+      }
+      @media (min-width: 1024px) {
+        body {
+            padding: 2rem;
+        }
+      }
+      .font-pixel {
+        font-family: 'VT323', monospace;
+      }
+      .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+      }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: white;
+        border-left: 2px solid black;
+      }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: black;
+      }
+      .clip-triangle {
+        clip-path: polygon(0 0, 100% 0, 100% 100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root" class="w-full max-w-[1400px]"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

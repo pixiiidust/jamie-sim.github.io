@@ -14,7 +14,7 @@ const Header: React.FC = () => {
         {/* Pixel Icon / Profile Image - Centered and resized to 200px */}
         <div className="mb-8 relative w-[200px] h-[200px] border-4 border-black shrink-0 overflow-hidden shadow-[10px_10px_0px_0px_rgba(0,0,0,1)]">
              <img 
-               src="https://github.com/pixiiidust/portfolio/blob/main/jamie_sim_pfp.jpg?raw=true" 
+               src="https://github.com/user-attachments/assets/1e9799d3-59e1-46d3-87d3-0a94e8454172" 
                alt="Jamie Sim" 
                className="w-full h-full object-cover"
              />
